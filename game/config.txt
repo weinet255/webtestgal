@@ -1,0 +1,9 @@
+Game_name:Webtest;
+Game_key:6815d3e144604a4;
+Title_img:878319.jpg;
+Title_bgm:Theme_12.ogg;
+Textbox_theme:imss;
+Description:test-web;
+Package_name:orgtestweb;
+Game_Logo:;
+Enable_Appreciation:true;

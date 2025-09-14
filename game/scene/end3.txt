@@ -1,0 +1,10 @@
+;那天
+pixiPerform:heavySnow;
+bgm:Theme_41.ogg -enter=20 -unlockname=Theme41;
+unlockBgm:Theme_41.ogg;
+changeBg:43417.jpg -next;
+unlockCg:43417.jpg;
+changeFigure:845814.png -right -next -transform={"position":{"y":350},"scale":{"x":1.2,"y":1.2}} -id=3;
+Shirako:老师;
+setTextbox:hide;
+end;

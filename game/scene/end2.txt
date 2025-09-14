@@ -1,0 +1,10 @@
+;van
+changeBg:677937.jpg -next -unlockname=mi;
+unlockCg:677937.jpg;
+bgm:Theme_31.ogg -volume=45 -unlockname=Theme31;
+unlockBgm:Theme_31.ogg;
+changeFigure:78510.png -transform={"position":{"y":280},"scale":{"x":1.2,"y":1.2}};
+mika:...;
+~老师一起来玩吧 -mi1.wav -center -fontSize=large;
+intro:和未花van了一天 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+end;

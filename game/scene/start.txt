@@ -1,0 +1,16 @@
+; 初始场景，以及特效演示
+bgm:Theme_09.ogg -volume=70 -unlockname=Theme09;
+intro:This is a test game.... -fontSize=large -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:878319.jpg -next -unlockname=19;
+unlockCg:878319.jpg -name=良夜;
+changeFigure:315388.png -next -transform={"position":{"y":400}};
+setAnimation:enter-from-left -writeDefault -next -target=fig-left;
+九蓝一金:老师，你回来啦，你想让我叫你什么呢 -a2.wav -center -fontSize=large;
+getUserInput: -title=LOCALNAME;
+好的，阿罗娜就叫老师入机好了| -a3.wav -center -fontSize=large;
+老师:...|算了;
+你叫我老师就好;
+蓝色恶魔:A。其实普拉娜叫老师去海边一趟。 -a3.wav;
+;其实普拉娜不会登场
+changeFigure: -next;
+choose:去海边:start1.txt|去沙滩:end2.txt|不去:end3.txt;
