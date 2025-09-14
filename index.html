@@ -361,5 +361,17 @@
     </script>
     <!-- main文件 -->
     
+    <!-- 解锁语音播放 -->
+    <script>
+      document.addEventListener('click', () => {
+        if (!window._audioCtx) {
+          window._audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+          if (window._audioCtx.state === 'suspended') {
+            window._audioCtx.resume();
+          }
+          console.log("✅ AudioContext 已解锁，可以播放语音了");
+        }
+      }, { once: true });
+    </script>
   </body>
 </html>
